@@ -1,0 +1,25 @@
+{
+	"name": "ananse",
+	"authors": [
+		"Lawrence Aberba"
+	],
+	"targetPath": "bin",
+	"targetType": "executable",
+	"stringImportPaths": [
+		"views",
+		"views/res",
+		"views/res/i18n",
+		"views/res/ldpi",
+		"views/res/mdpi",
+		"views/res/hdpi"
+	],
+	"sourceFiles-windows": [
+		"$PACKAGE_DIR/src/win_app.def"
+	],
+	"dependencies": {
+		"dlangui": "~>0.9.173"
+	},
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2018, Lawrence Aberba",
+	"license": "BSL-1.0"
+}

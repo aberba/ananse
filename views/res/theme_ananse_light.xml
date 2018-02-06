@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme 
+    id="theme_ananse_light"
+    parent="theme_default"
+
+    fontSize="10pt" 
+    fontFace="Roboto, Droid Sans, Helvetica"
+    fontFamily="SansSerif"
+>
+	<color id="window_background" value="#FFFFFF"/>
+ 	<color id="dialog_background" value="#EEEEEE"/> 
+
+    <color id="edit_background" value="#F0F0F0"/>
+
+     <style id="BUTTON"
+        align="Center"
+        margins="2pt, 2pt, 2pt, 2pt"
+        padding="2pt,2pt,2pt,2pt"
+        fontSize="16px"
+        fontWeight="bold"
+        borderWidth="2px"
+        borderColor="red"
+        backgroundColor="#F5F5F5"
+        focusRectColors="#F5F5F5"
+        >
+
+        <state state_pressed="true" focusRectColors="#439EDB"/>
+        
+        <state state_focused="true" state_hovered="true" backgroundColor="#C0E0FF"/>
+        <state state_focused="true" backgroundColor="#C0E0FF"/>
+        <state state_focused="false" state_hovered="true" textColor="#FF8000"/>
+    </style>
+
+  <style id="BUTTON_LABEL"
+        layoutWidth="FILL_PARENT"
+        margins="2pt,2pt,2pt,2pt"
+        align="Center|VCenter"
+        textFlags="UnderlineHotKeys"
+        >
+        <state state_enabled="false" backgroundColor="#EEEEEE"/>
+        <state state_enabled="true" state_hovered="true" fontWeight="bold"/>
+    </style>
+
+
+</theme>
